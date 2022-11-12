@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Rick and Morty: Character Guide</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container header__body">
+            <div class="header__burger">
+                <span></span>
+            </div>
+            <a href="https://rickandmorty.fandom.com/wiki/Rickipedia" class="header__logo" target="_blank">
+                        <img class="logo" src="img/logo.png" alt="Rick and Morty">
+                    </a>
+            <!-- меню под бургером -->
+            <div class="header__menu">
+                <ul class="header__list">
+                    <li>
+                        <a href="#frame" class="header__link">Character Guide</a>
+                    </li>
+                    <li>
+                        <a href="#footer" class="header__link">Subscribe</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class="main-container">
+        <div id="frame" class="frame">
+        </div>
+    </main>
+    <footer id="footer" class="footer">
+        <p class="subscribe-text">Subscribe</p>
+        <form method="GET" target="_blank" action="https://api.telegram.org/bot5749049101:AAFc6ZVsFV9tRDaK8yWplqQ-8FMKs_n0VKA/sendMessage">
+            <input name="chat_id" type="hidden" value="224039891">
+            <input class="form" type="text" name="mail" placeholder="email@mail.com">
+        </form>
+        <button class="btn" type="submit">Submit</button>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script> 
+    <script src="js/main.js"></script>
+</body>
+</html>

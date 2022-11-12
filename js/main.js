@@ -35,3 +35,22 @@ $(document).ready(function() {
         $('body').toggleClass('lock');
     });
 });
+
+
+function paintBackground() {
+    document.getElementById('frame').style.backgroundColor = 'rgba(189,255,164, 0.9)';
+}
+
+function back() {
+    document.getElementById('frame').style.backgroundColor = 'rgb(198 198 198 / 90%)';
+}
+
+// function paintCharacters() {
+//     document.getElementById('card-text').style.backgroundColor = 'rgba(189,255,164, 0.9)';
+//     document.getElementById('h2').style.color = 'rgba(189,255,164, 0.9)';
+// }
+
+// function backCharacters() {
+//     document.getElementById('card-text').style.backgroundColor = 'rgb(232 232 232)';
+//     document.getElementById('h2').style.color = 'beige';
+// }
